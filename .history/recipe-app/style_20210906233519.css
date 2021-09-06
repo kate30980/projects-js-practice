@@ -36,18 +36,16 @@ header input{
     border-radius: 3px;
     border:none;
     background-color: #eee;
-    font-family: inherit;
 }
-
 header button{
     background-color: transparent;
-    color: rgb(138,129,141);font-size: 1.5rem;
+    color: #aaa;font-size: 1.5rem;
     border: none;
     margin-left: 10px;
 }
 .fav-container{
-    background-color:rgb(241, 221, 239);
-    padding: 0.25rem 1rem;
+    background-color:rgb(243, 198, 237);
+    padding: 1rem;
     text-align: center;
 }
 .fav-meals{
@@ -75,44 +73,13 @@ header button{
 }
 
 .meal{
-    box-shadow: 0 0 10px 2px #3333331a;
-    margin: 1.5rem;
+    margin: 10px;
     border-radius: 3px;
     
-    overflow:hidden;
 }
 .meal-header{
-    position: relative;
-}
-.meal-header .random{
-    position: absolute;
-    top: 1rem;
-    background-color: #fff;
-    padding: 0.25rem 1rem;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
+
 }
 .meal-header img{
-    height: 250px;
-    width: 100%;
-    object-fit: cover;
-}
-.meal-body{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-}
-.meal-body h4{
-   margin: 0;
-}
-.meal-body .fav-btn{
-    background-color:transparent;
-    border:none;
-    font-size: 1.2rem;
-    color: rgb(197, 188, 188);
-    cursor:pointer;
-}
-.meal-body .fav-btn.active{
-    color: rebeccapurple;
+
 }
