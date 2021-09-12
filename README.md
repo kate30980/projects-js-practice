@@ -1,4 +1,4 @@
-# 10 Projects in 10 Hours
+# 10 Javascript Projects
 
 1. Countdown Timer
 
