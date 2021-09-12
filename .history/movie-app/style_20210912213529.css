@@ -9,21 +9,16 @@ body {
     margin: 0;
     background-color: #22254b;
 }
-main{
-    display: flex;
-    flex-wrap: wrap;
-}
 .movie{
     background-color: #373b69;
     border-radius:3px;
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
     width: 300px;
-    margin: 1rem;
 }
 .movie img{
     width: 100%;
     height: 400px;
- 
+    object-fit: cover;
 }
 
 .movie-info{
@@ -31,9 +26,8 @@ main{
     justify-content: space-between;
     padding: 1rem;
     color: #eee;
-    letter-spacing:.5px;
+    letter-spacing:1px;
     padding: .5rem 1rem 1rem;
-    align-items: center;
 }
 .movie-info h3{
     margin: 0;

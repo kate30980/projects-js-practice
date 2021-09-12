@@ -22,7 +22,7 @@ async function getMovie() {
                 <h3>${title}</h3>
                 <span>${vote_average}</span>
             </div>`;
-    main.appendChild(movieEl);
+    document.body.appendChild(movieEl);
   });
 
   return respData;
