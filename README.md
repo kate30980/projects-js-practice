@@ -66,3 +66,6 @@
 - enter location
 - get weather
 - have some icons?
+
+Inspired by Florin Pop - https://www.youtube.com/watch?v=dtKciwk_si4&t=12233s
+I took this project as practice for my skill. 
