@@ -12,7 +12,6 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    color: black;
 }
 h1{
     text-align: center;
@@ -56,6 +55,5 @@ form{
 }
 small{
     color: #b5b5b5;
-    margin-top: 3rem;
-    text-align: center;
+    margin-top: 3rem:;
 }

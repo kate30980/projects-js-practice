@@ -12,8 +12,7 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    color: black;
-}
+    color: #765;
 h1{
     text-align: center;
     color: rgb(170, 122, 218);

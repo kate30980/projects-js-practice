@@ -16,16 +16,13 @@ form.addEventListener("submit", (e) => {
 });
 
 function addTodo(todo) {
-  let todoText = input.value;
-
   if (todo) {
-    todoText = todo.text;
+  } else {
   }
+  const todoText = input.value;
+
   if (todoText) {
     const todoEl = document.createElement("li");
-    if (todo && todo.completed) {
-      todoEl.classList.add("completed");
-    }
     todoEl.innerText = todoText;
 
     todoEl.addEventListener("click", () => {

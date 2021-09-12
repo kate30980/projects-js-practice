@@ -4,8 +4,8 @@ const todosUL = document.getElementById("todos");
 
 const todos = JSON.parse(localStorage.getItem("todos"));
 if (todos) {
-  todos.forEach((todo) => {
-    addTodo(todo);
+  todos.forEach((todos) => {
+    addTodo();
   });
 }
 
@@ -15,17 +15,11 @@ form.addEventListener("submit", (e) => {
   addTodo();
 });
 
-function addTodo(todo) {
-  let todoText = input.value;
+function addTodo() {
+  const todoText = input.value;
 
-  if (todo) {
-    todoText = todo.text;
-  }
   if (todoText) {
     const todoEl = document.createElement("li");
-    if (todo && todo.completed) {
-      todoEl.classList.add("completed");
-    }
     todoEl.innerText = todoText;
 
     todoEl.addEventListener("click", () => {
