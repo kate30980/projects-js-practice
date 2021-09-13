@@ -24,7 +24,7 @@ function showMovies(movies) {
   main.innerHTML = "";
 
   movies.forEach((movie) => {
-    const { poster_path, title, vote_average, overview } = movie;
+    const { poster_path, title, vote_average } = movie;
     const movieEl = document.createElement("div");
     movieEl.classList.add("movie");
 
@@ -35,12 +35,7 @@ function showMovies(movies) {
                 <span class="${getClassByRate(
                   vote_average
                 )}">${vote_average}</span>
-            </div>
-            <div class="overview">
-            <h4>Overview:</h4>
-            ${overview}</div>;
-            `;
-
+            </div>`;
     main.appendChild(movieEl);
   });
 }

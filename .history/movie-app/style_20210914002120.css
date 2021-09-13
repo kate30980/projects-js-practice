@@ -85,12 +85,7 @@ main{
     background-color:white;
     padding: 2rem;
     transform: translateY(100%);
-    transition: transform 0.5s ease-in;
-    max-height: 100%;
-    overflow: auto;
-}
-.overview h4{
-    margin: 0;
+    transition: transform 0.5s ease-in-out;
 }
 .movie:hover .overview{
     transform: translateY(0);
