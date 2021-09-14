@@ -16,15 +16,15 @@ body {
     min-height: 100vh;
 
 }
+input{
 
+}
 .card{
     background-color: #3b2066;
     background-image: linear-gradient(315deg, #2a2a72 0%, #44198a 74%); 
     display: flex;
     padding: 3rem;
-    border-radius:15px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    max-width: 800px;
+    border-radius:15px
 }
 
 .avatar{
@@ -32,8 +32,4 @@ body {
     height: 150px;
     width: 150px;
     border: 10px solid #2a2a72;
-}
-.user-info{
-    margin-left: 2rem;
-    color: white;
 }

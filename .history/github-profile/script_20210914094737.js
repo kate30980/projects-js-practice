@@ -18,11 +18,11 @@ function createUserCard(user) {
             <img class="avatar" src="${user.avatar_url}" alt="${user.name}" />
         </div>   
         
-        <div class = "user-info">
+        <div>
             <h2>${user.name}</h2>
             <p>${user.bio}</p>
 
-            <ul class = "info">
+            <ul class = "user-info">
                 <li>${user.followers}</li>
                 <li>${user.following}</li>
                 <li>${user.public_repos}</li>
